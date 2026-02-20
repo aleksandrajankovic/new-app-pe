@@ -502,7 +502,10 @@ header {
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 420px) {
+    .meridianApp-text h2 {
+    font-size: 3rem;
+  }
   .logo img {
     display: none;
   }
@@ -528,9 +531,7 @@ header {
   }
 }
 @media screen and (max-width: 375px) {
-  .meridianApp-text h2 {
-    font-size: 3rem;
-  }
+
   .meridianApp-text h4 {
     font-size: 14px;
   }
