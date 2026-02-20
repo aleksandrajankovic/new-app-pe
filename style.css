@@ -1,0 +1,703 @@
+:root {
+  --dark: #000;
+  --white: #ffffff;
+  --green: #17bb00;
+  --lightgray: #d7d7d7;
+  --border: 2px solid #333;
+  --red: #d11101;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  font-size: 62.5%;
+  background-color: var(--dark);
+  min-width: 320px;
+}
+
+header {
+  display: flex;
+  padding: 2rem;
+  line-height: normal;
+  gap: 4px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #a6080e 0%, #d11101 100%);
+  height: 7dvh;
+}
+.btn a:first-child {
+  padding: 1rem;
+  background: linear-gradient(180deg, #43b02a 0%, #379622 100%);
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0.6rem;
+  margin-right: 1rem;
+}
+.btn a:last-child {
+  padding: 1rem;
+  background: linear-gradient(180deg, #c4161c 0%, #9f1116 100%);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1.3rem;
+  font-weight: 700;
+  border-radius: 0.6rem;
+}
+.btnLng {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+/*SECTION MERIDIAN APP*/
+#meridianApp {
+  background-image: url(./img/Background-peru2026-Desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  border-bottom: var(--border);
+  height: 97dvh;
+  display: flex;
+  align-items: center;
+}
+.meridianApp-wrapper {
+  width: 85%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.meridianApp-text h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 8rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--white);
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+.meridianApp-text h4 {
+  font-family: Roboto;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  margin-bottom: 2.4rem;
+  color: var(--white);
+  font-style: italic;
+}
+.meridianApp-img {
+  display: flex;
+  gap: 5rem;
+}
+.app-box {
+  width: 35%;
+}
+.box {
+  background: #1c2f3899;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1rem;
+  border-radius: 0.4rem;
+}
+.box p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--white);
+  margin-top: 1rem;
+}
+.box-img {
+  padding: 0 4rem;
+  height: 10rem;
+}
+.btn-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #facc01;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+}
+.btn-icon {
+  height: 2.4rem;
+}
+.btn-app a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2d2d2d;
+}
+.btn a:first-child {
+  padding: 1rem;
+  background-color: var(--green);
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0.6rem;
+  margin-right: 1rem;
+}
+.btn a:last-child {
+  padding: 1rem;
+  background-color: #333;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1.3rem;
+  font-weight: 700;
+  border-radius: 0.6rem;
+}
+.btnLng {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+/*SECTION MERIDIAN APP*/
+
+/*SECTION INSTRUCTION*/
+#instructions {
+  background: var(--dark);
+  border-bottom: var(--border);
+}
+.instructions-wrapper {
+  width: 85%;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+#instructions h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--white);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+#instructions ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cacaca;
+  margin-left: 3rem;
+}
+#instructions h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--white);
+}
+#instructions p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cacaca;
+}
+/*SECTION INSTRUCTION*/
+
+/*FOOTER*/
+.footer-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.copyright p {
+  font-size: 1.2rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.payments {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+}
+
+.payments::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+  height: 100%;
+  z-index: 33;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0)
+  );
+}
+.sponsorships::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0)
+  );
+  z-index: 33;
+}
+.payments-text {
+  width: 230px;
+  color: #fff;
+}
+.payments-icons {
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  overflow: hidden;
+}
+.payments h3 {
+  font-size: 2rem;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.payments h4 {
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  font-weight: normal;
+}
+.payments-icons img {
+  opacity: 0.8;
+  max-width: 100%;
+}
+.sponsorships {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+}
+.sponsorships-text {
+  width: 20%;
+  color: #fff;
+}
+.sponsorships-text h3 {
+  font-size: 2rem;
+}
+.sponsorships-text h4 {
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+
+  font-weight: normal;
+}
+.sponsorships-icons {
+  width: calc(100% - 230px);
+  overflow: hidden;
+  text-align: center;
+}
+.sponsorships-icons img {
+  max-width: 100%;
+}
+.links {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #182f37;
+  padding: 40px 0;
+}
+.links ul {
+  width: 95%;
+  margin: 0 auto;
+}
+.links ul li {
+  display: inline-block;
+  margin-right: 30px;
+  line-height: 30px;
+}
+.links ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+.links li:last-child {
+  margin-right: unset;
+}
+.copyright {
+  text-align: center;
+  color: #fff;
+  padding: 40px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1259px) {
+  .meridianApp-text h4 {
+    font-size: 2.5rem;
+    line-height: 39px;
+    margin-bottom: 2rem;
+  }
+  .meridianApp-text h2 {
+    font-size: 5rem;
+    line-height: 60px;
+    width: 82%;
+    margin-bottom: 2rem;
+  }
+
+  .footer-wrapper {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .meridianApp-img-box1,
+  .meridianApp-img-box2 {
+    width: 100%;
+  }
+  .copyright {
+    padding: 20px 0;
+  }
+  .links {
+    display: none;
+  }
+  .meridianApp-wrapper {
+    padding: 6rem 0;
+  }
+  #meridianApp {
+    background-image: url(./img/Background-peru2026-Mobile.png);
+    background-size: cover;
+    background-position: center top;
+    min-height: 0;
+    height: auto;
+    padding-top: clamp(32rem, 46svh, 60rem);
+    padding-bottom: 4rem;
+    display: block;
+  }
+  .meridianApp-wrapper {
+    padding: 0;
+    width: 82%;
+  }
+  .app-box {
+    width: 100%;
+  }
+  .meridianApp-text h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+  }
+  .meridianApp-text h4 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    color: var(--lightgray);
+  }
+
+  .meridianApp-img {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .box {
+    background-color: unset;
+  }
+  .box-img {
+    display: none;
+  }
+
+  .btn-app {
+    padding: 0.8rem;
+  }
+  .box p {
+    font-size: 1.6rem;
+  }
+  .btn-app a {
+    font-size: 14px;
+  }
+  .instructions-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+  }
+  #instructions h3 {
+    font-size: 1.8rem;
+    line-height: 28px;
+  }
+  #instructions ul li {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  #instructions h3 {
+    text-align: center;
+  }
+  #instructions h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #instructions p {
+    font-size: 14px;
+  }
+  .footer-wrapper {
+    width: 90%;
+  }
+  .payments {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .payments-text {
+    width: 100%;
+  }
+  .payments-icons {
+    width: 100%;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+  }
+  .sponsorships {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .sponsorships-text {
+    width: 100%;
+    color: #fff;
+  }
+  .sponsorships-icons {
+    width: 100%;
+  }
+  .sponsorships-icons img {
+    max-width: 100%;
+  }
+  .copyright {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .logo img {
+    display: none;
+  }
+  .logo {
+    background-image: url(./img/mb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4rem;
+    width: 4rem;
+  }
+  .btnLng {
+    max-width: 100%;
+    justify-content: end;
+  }
+  .links {
+    padding: 20px 0;
+  }
+  .links ul li a {
+    font-size: 1.4rem;
+  }
+  .btnLng {
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .meridianApp-text h2 {
+    font-size: 3rem;
+  }
+  .meridianApp-text h4 {
+    font-size: 14px;
+  }
+  .payments-icons {
+    grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+  }
+  .copyright {
+    width: 90%;
+  }
+  .footer-wrapper {
+    padding: 20px 0;
+  }
+}
+
+/*FOOTER STYLE*/
+.footer-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.payments {
+  display: flex;
+  padding: 20px 0;
+}
+.payments-text {
+  width: 20%;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.payments-icons {
+  width: 80%;
+  overflow: hidden;
+}
+
+.sponsorships {
+  display: flex;
+  padding: 20px 0;
+}
+.sponsorships-text {
+  width: 20%;
+  color: #fff;
+  font-size: 16px;
+}
+.sponsorships-icons {
+  width: 80%;
+  overflow: hidden;
+}
+.links {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #222;
+  padding: 40px 0;
+}
+.links ul {
+  width: 95%;
+  margin: 0 auto;
+}
+.links ul li {
+  display: inline-block;
+  margin-right: 30px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.links ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.links li:last-child {
+  margin-right: unset;
+}
+.copyright {
+  text-align: center;
+  color: #fff;
+  padding: 40px 0;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  background: transparent;
+  height: 55% !important;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex !important;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-self: center !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 95%;
+  height: 5rem;
+  object-fit: contain;
+  opacity: 0.7;
+}
+.block-title img {
+  width: 10% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-wrapper {
+    width: 90%;
+  }
+  .payments {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .payments-text {
+    width: 100%;
+  }
+  .payments-icons {
+    width: 100%;
+  }
+
+  .swiper-wrapper {
+    align-items: center;
+  }
+  .sponsorships {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sponsorships-text {
+    width: 100%;
+  }
+  .sponsorships-icons {
+    width: 100%;
+  }
+  .block.swiper-slide {
+    width: 97% !important;
+    margin: 10px;
+  }
+  .swiper-container {
+    width: 100%;
+  }
+  .swiper-slide img {
+    width: 60%;
+  }
+  #rules-text .show-more {
+    width: 50%;
+  }
+  .links ul li {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .links {
+    padding: 20px 0;
+  }
+}
