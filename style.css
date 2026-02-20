@@ -63,7 +63,7 @@ header {
 }
 /*SECTION MERIDIAN APP*/
 #meridianApp {
-  background-image: url(./img/Background-peru2026-Desktop.png);
+  background-image: url(./img/1920x1080-DescargaLaApp.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center left;
@@ -416,6 +416,7 @@ header {
     width: 100%;
     text-align: center;
     font-style: italic;
+    margin-bottom: 1rem;
   }
   .meridianApp-text h4 {
     font-size: 16px;
@@ -503,7 +504,7 @@ header {
 }
 
 @media screen and (max-width: 420px) {
-    .meridianApp-text h2 {
+  .meridianApp-text h2 {
     font-size: 3rem;
   }
   .logo img {
@@ -531,7 +532,6 @@ header {
   }
 }
 @media screen and (max-width: 375px) {
-
   .meridianApp-text h4 {
     font-size: 14px;
   }
